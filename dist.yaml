@@ -1,0 +1,13 @@
+vendor: datafellas
+packages:
+    - 'unzip'
+ports:
+    datafellas-notebook:
+        port: 9000
+        exposed_on: 'datafellas-notebook'
+
+dirs:
+    datafellas-notebook_pid:
+        path: '/var/run/spark-notebook'
+        owner: 'spark-notebook'
+        group: 'spark-notebook'

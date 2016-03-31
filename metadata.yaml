@@ -1,0 +1,18 @@
+name: spark-notebook
+summary: Interactive and Reactive Data Science using Scala and Spark. http://spark-notebook.io/
+maintainer: Francois Bayart <francois.bayart@data-fellas.guru>
+description: |
+    Originally forked from the amazing scala-notebook,
+    almost entirely refactored for Massive Dataset Analysis using Apache Spark.
+
+    The tool allows performing reproducible analysis with Scala, Apache Spark and more.
+
+    This is achieved through an interactive web-based editor that can combine Scala code,
+    SQL queries, Markup or even JavaScript in a collaborative manner.
+
+    The Spark is available out of the box, and is simply accessed by the variable sparkContext.
+tags: ["bigdata", "hadoop", "apache", "spark"]
+requires:
+   spark:
+     interface: spark
+     scope: container

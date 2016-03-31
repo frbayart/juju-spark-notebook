@@ -1,0 +1,8 @@
+includes: ['layer:openjdk','interface:spark']
+# repo: git@github.com:frbayart/juju-spark-notebook.git
+# includes: ['layer:basic', 'interface:spark']
+options:
+  openjdk:
+    packages: 'screen'
+    use_venv: true
+    include_system_packages: true

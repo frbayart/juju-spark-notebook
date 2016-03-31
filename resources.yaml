@@ -1,0 +1,7 @@
+options:
+  output_dir: /home/ubuntu/resources
+optional_resources:
+  datafellas-notebook-x86_64:
+    url: http://spark-notebook-juju.s3.amazonaws.com/spark-notebook_0.7.0-SNAPSHOT-scala-2.10.5-spark-1.6.0-hadoop-2.2.0_all.deb
+    hash: 990fd69c707b97a964178c47550bad1dc2ddf5c531e8d0ff3b28cb7871a37571c51f3f87005abc64df04bf8a02ce9500890be8d42064737a5a2b5d06329ee15c
+    hash_type: sha512
